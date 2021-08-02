@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
         <header>
-          <h1>REACT APP</h1>
+          <h1>{inputText}</h1>
         </header>
         <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText}/>
         <TodoList todos={todos}/>

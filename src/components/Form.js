@@ -2,7 +2,7 @@
 const Form = ({setInputText, todos, setTodos, inputText}) => {
   // setting the input to state
   const inputTextHandler = (e) =>{
-    console.log(e.target.value);
+    
     setInputText(e.target.value);
   };
   const submitTodoHandler = (e) =>{
